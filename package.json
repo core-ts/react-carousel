@@ -1,0 +1,30 @@
+{
+  "name": "reactx-carousel",
+  "version": "0.0.0",
+  "description": "react-carousel",
+  "main": "./lib/index.js",
+  "types": "./src/index.ts",
+  "scripts": {
+    "build:lib": "tsc",
+    "clean:lib": "rimraf lib"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.2",
+    "@types/react": "^16.9.0",
+    "tslint": "5.10.0",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/core-ts/react-carousel"
+  },
+  "keywords": [
+    "react-carousel"
+  ]
+}
