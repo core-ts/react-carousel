@@ -1,6 +1,6 @@
 {
   "name": "reactx-carousel",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "react-carousel",
   "main": "./lib/index.js",
   "types": "./src/index.ts",
